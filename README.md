@@ -17,6 +17,7 @@
 3) Jupyter Notebook
 > - kubeflow에서 jupyter notebook은 jovyan 계정으로 설정되어있어서 sudo 명령어가 불가능하다.
 > - 그렇기때문에 custom 이미지를 활용해서 작업을 진행한다.
+> - custom image 생성시 참고하는 깃허브 https://github.com/kubeflow/kubeflow/tree/v1.5.0/components/example-notebook-servers
 
 4) Kfp (kubeflow pipeline)
 > - 기존에는 인증이 진행되지않아서 인증을 우회하는 방법을 적용해줘야한다.
