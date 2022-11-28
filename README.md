@@ -1,4 +1,5 @@
 # vos-kubeflow
+참고 노션 페이지: https://www.notion.so/valueofspace/AWS-Karpenter-kubeflow-408acb761a4843bebb608c4352396182
 
 1) Install
 - **순서**: 
