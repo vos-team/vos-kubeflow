@@ -1,0 +1,15 @@
+apiVersion: kubeflow.org/v2beta1
+kind: Profile
+metadata:
+  name: tykim   # replace with the name of profile you want, this will be user's namespace name
+spec:
+  owner:
+    kind: User
+    name: tykim@valueofspace.com   # replace with the email of the user
+  resourceQuotaSpec:
+   hard: # 해당 계정에 부여하는 용량 적어주기
+     cpu: "4"
+     memory: "16Gi"
+     requests.nvidia.com/gpu: "1"
+     persistentvolumeclaims: "10"
+     requests.storage: "100Gi"  
